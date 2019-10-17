@@ -24,13 +24,13 @@ main {
 .block {
   background-color: #fff;
 
-  padding: 30px;
+  padding      : 30px;
   margin-bottom: 30px;
 }
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color      : #4aaaa5;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -40,22 +40,22 @@ main {
   font-family: Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
-  font-size: 24px;
+  font-size  : 24px;
   font-weight: bold;
-  color: #fff;
+  color      : #fff;
 
   /* Visual */
   background: #4aaaa5;
 }
 
 /* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav>li>a:hover {
   color: #4aaaa5;
 }
 
 .navbar {
   background: white;
-  border: none;
+  border    : none;
 }
 
 /* media query for nav background color change */
@@ -64,6 +64,7 @@ main {
     background-color: #4aaaa5;
   }
 }
+
 /* END NAV */
 
 
@@ -75,7 +76,7 @@ main {
 
 .connect-photo {
   /* Box-model */
-  width: 55px;
+  width : 55px;
   height: 55px;
 }
 
@@ -86,6 +87,7 @@ main {
   /* Typography */
   text-align: center;
 }
+
 /* END CONNECT W/ ME */
 
 
@@ -93,10 +95,10 @@ main {
 .footer {
   /* Positioning */
   position: absolute;
-  bottom: 0;
+  bottom  : 0;
 
   /* Box-model */
-  width: 100%;
+  width : 100%;
   height: 60px;
 
   /* Visual */
@@ -113,12 +115,13 @@ main {
 
 .two-toned-footer-color {
   /* Box-model */
-  height: 6px;
+  height     : 6px;
   padding-top: 3px;
 
   /* Visual */
   background-color: #4aaaa5;
 }
+
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
 
@@ -127,12 +130,12 @@ main {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family  : Georgia, Times, "Times New Roman", serif;
 
   /* Typography */
-  font-size: 32px;
+  font-size  : 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color      : #4aaaa5;
 }
 
 #about-image {
@@ -140,9 +143,10 @@ main {
   float: left;
 
   /* Box-model */
-  width: 200px;
+  width : 200px;
   margin: 0 20px 10px 0;
 }
+
 /* END ABOUT-ME PAGE */
 
 
@@ -150,6 +154,16 @@ main {
 .port-image {
   margin: 20px auto;
 }
+
+/* .img-fluid {
+  position: absolute;
+  width   : 350px;
+  height  : 350px;
+  float   :left;
+}
+#banner {
+  position:absolute;
+} */
 /* END PORTFOLIO PAGE */
 
 
@@ -165,8 +179,8 @@ main {
 
 .submit-btn {
   /* Box-model */
-  padding: 15px 30px;
-  font-size: 16px;
+  padding    : 15px 30px;
+  font-size  : 16px;
   font-weight: lighter;
 
   /* Typography */
@@ -174,7 +188,7 @@ main {
 
   /* Visual */
   background-color: #4aaaa5;
-  border: 0;
+  border          : 0;
 }
 
 .submit-btn:hover {
